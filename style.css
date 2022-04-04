@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-div {
+    background-color: rgb(255, 196, 0);
+    border: 1px solid rgb(255, 196, 0);
+    height: 60px;
+}
+
+#heading {
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+
+.addNewNote-div {
+    width: auto;
+    /* border: 1px solid black; */
+    background-color: aqua;
+    padding-left: 70%;
+}
+
+.new-btn {
+    position: static;
+    bottom: auto;
+    right: auto;
+    font-size: 1vw;
+    float: right;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 3vw;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 10px;
+    background-color: rgb(255, 196, 0);
+}
+
+.new-btn:hover {
+    color: rgb(255, 196, 0);
+    background-color: white;
+    border: 2px solid rgb(255, 196, 0);
+}
+
+.edit-btn {
+    font-size: 1vw;
+    float: right;
+    width: 3vw;
+    height: 3vw;
+    text-align: center;
+    border-radius: 3vw;
+    margin-right: 6px;
+    margin-top: 6px;
+    background-color: rgb(26, 235, 26);
+}
+
+.edit-btn:hover {
+    background-color: transparent;
+    border: 2px solid rgb(29, 202, 29);
+    color: rgb(29, 202, 29);
+}
+
+.del-btn {
+    font-size: 1vw;
+    float: right;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 3vw;
+    margin-right: 6px;
+    margin-top: 6px;
+    background-color: rgb(250, 24, 24);
+}
+
+.del-btn:hover {
+    color: rgb(250, 24, 24);
+    border: 2px solid rgb(250, 24, 24);
+    background-color: transparent;
+}
+
+.notes-div {
+    /* border: 1px solid green; */
+    margin-top: 10px;
+    margin-left: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1vw;
+    font-size: 1vw;
+}
+
+.note-div {
+    width: 21vw;
+    font-size: 1vw;
+    /* width: auto; */
+    height: 14vw;
+    border: 1px solid rgb(156, 153, 153);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+#inputText {
+    width: 19.2vw;
+    border: 0px solid red;
+    background-color: white;
+    height: 14vw;
+    outline: 0px;
+    resize: none;
+    overflow-y: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.operation {
+    height: 4vw;
+}
+
+#outputText {}
+
+.hidden {
+    display: none;
+}
